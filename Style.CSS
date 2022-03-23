@@ -1,0 +1,188 @@
+@font-face
+{
+    font-family: BRACfont1;
+    src: url('images/Helvetica LT 67 Medium Condensed.ttf');
+}
+@font-face
+{
+    font-family: BRACfont2;
+    src: url('images/Helvetica LT 35 Thin.ttf');
+}
+@font-face
+{
+    font-family: BRACfont3;
+    src: url('images/HelveticaNeueLTStd-Md.otf');
+}
+@font-face
+{
+    font-family: BRACfont4;
+    src: url('images/HelveticaNeueThin.otf');
+}
+body
+{
+    background: #d10073;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#page
+{
+    width: 1200px;
+    margin: -10px auto 0 auto;
+}
+#banner
+{
+    max-width: 400px;
+    height: 100px;
+    background-color: #d10073;
+    margin: 10px 0px -50px 0;
+    padding: 1px;
+    font-family: BRACfont4;
+    font-size: 3.00em;
+}
+
+#headline
+{
+    float: middle;
+    vertical-align:middle;
+}
+
+#logo
+{
+    max-width: 306px;
+    max-height: 106px;
+    text-align:middle;
+}
+
+#form
+{
+    width: 500px;
+    padding: 0px;
+    margin: 0px 0px 0;
+    background: #ffffff;
+    float: center;
+}
+#content
+{
+    width: 425px;
+    padding: 15px;
+    margin: 5px 5px 0 0;
+    background: #ffffff;
+    float: center;
+}
+#bottom_content
+{
+    width: 425px;
+    padding: 15px;
+    margin: 5px 5px 0 0;
+    background: #ffffff;
+    float: center;
+    font-family: BRACfont4;
+}
+#bottom_content h1
+{
+    font-family: BRACfont4;
+    color: #ee008c;
+    text-transform:uppercase;
+    font-size: 1.00em;
+}
+#info
+{
+    font-size: 0.75em;
+    font-family: BRACfont4;
+}
+.form-label
+{
+    width:105px !important;
+}
+.form-label-left
+{
+    width:105px !important;
+}
+.form-line
+{
+    padding-top:12px;
+    padding-bottom:12px;
+}
+.form-label-right{
+    width:105px !important;
+}
+.form-all
+{
+    margin:0px auto;
+    padding-top:20px;
+    width:500px;
+    color:#555 !important;
+    font-family: BRACfont4;
+    font-size:14px;
+}
+.form-radio-item label, .form-checkbox-item label, .form-grading-label, .form-header{
+    color:#555;
+}
+#id_17
+{
+    visibility:hidden;
+    line-height: 0px;
+}
+#id_22
+{
+    visibility:hidden;
+    line-height: 0px;
+}
+
+#left {
+    width:300px;
+    height:300px;
+    float:left;
+    background:white;
+}
+
+#right {
+    width:300px;
+    height:300px;
+    float:right;
+    background:black;
+}
+
+#white_box {
+    position: relative;
+    background:white;
+    width:1145px;
+    height:300px;
+    padding:5px;
+}
+.divider{
+    position:absolute;
+    left:50%;
+    top:0%;
+    bottom:0%;
+    border-left:0px solid white;
+}
+
+/*cut off image into square*/
+
+div{
+    max-height:300px;
+    overflow:hidden;
+}
+
+/*VERTPAN*/
+.vertpan img {
+  margin-top: -300px;
+  -webkit-transition: margin 1s ease;
+     -moz-transition: margin 1s ease;
+       -o-transition: margin 1s ease;
+      -ms-transition: margin 1s ease;
+          transition: margin 1s ease;
+
+}
+ 
+.vertpan img:hover {
+  margin-top: 0px;
+}
+
+
+
+
+
